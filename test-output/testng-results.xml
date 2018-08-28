@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4501" started-at="2018-08-24T11:37:12Z" finished-at="2018-08-24T11:37:17Z">
+    <groups>
+      <group name="SignUp">
+        <method signature="ApplicationTest.appTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="appTest" class="com.bookmyroom.testng.ApplicationTest"/>
+      </group> <!-- SignUp -->
+    </groups>
+    <test name="Default test" duration-ms="4501" started-at="2018-08-24T11:37:12Z" finished-at="2018-08-24T11:37:17Z">
+      <class name="com.bookmyroom.testng.ApplicationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="beforeTest" is-config="true" duration-ms="3477" started-at="2018-08-24T11:37:12Z" finished-at="2018-08-24T11:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="appTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="appTest" duration-ms="7" started-at="2018-08-24T11:37:16Z" data-provider="SignUpData" finished-at="2018-08-24T11:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SignUp_TestCase_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Open SignUp Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter Name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nikhil Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Enter Email]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nikhilreddyaileni@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pass#123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Select Gender]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Enter Age]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Enter Mobile Number]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7492022310]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appTest -->
+        <test-method status="PASS" signature="appTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="appTest" duration-ms="2" started-at="2018-08-24T11:37:16Z" data-provider="SignUpData" finished-at="2018-08-24T11:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SignUp_TestCase_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Open SignUp Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter Name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Enter Email]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[tom123@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[qwerty@123456]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Select Gender]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Enter Age]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Enter Mobile Number]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7492022310]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appTest -->
+        <test-method status="PASS" signature="appTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="appTest" duration-ms="1" started-at="2018-08-24T11:37:16Z" data-provider="SignUpData" finished-at="2018-08-24T11:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SignUp_TestCase_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Open SignUp Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter Name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jerry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Enter Email]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jerry123@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tes#123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Select Gender]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Enter Age]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Enter Mobile Number]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7492022310]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.bookmyroom.testng.ApplicationTest@52f759d7]" name="afterTest" is-config="true" duration-ms="177" started-at="2018-08-24T11:37:16Z" finished-at="2018-08-24T11:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.bookmyroom.testng.ApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
