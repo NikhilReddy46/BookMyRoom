@@ -7,7 +7,8 @@
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="appTest"/>
+          <include name="loginTest"/>
+          <include name="signUpTest"/>
         </methods>
       </class> <!-- com.bookmyroom.testng.ApplicationTest -->
     </classes>

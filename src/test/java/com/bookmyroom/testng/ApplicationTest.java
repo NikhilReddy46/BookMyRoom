@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.bookmyroom.pages.LoginPage;
 import com.bookmyroom.pages.SignUpPage;
@@ -16,13 +17,13 @@ import com.bookmyroom.util.GetExcelData;
 import com.bookmyroom.util.Util;
 
 
-
+@Listeners
 public class ApplicationTest {
 	
 
-	WebDriver driver;
+	public static WebDriver driver;
 	Util util;
-	GetExcelData excelData;
+	GetExcelData excelData=new GetExcelData();
 	static org.apache.log4j.Logger log = Logger.getLogger(ApplicationTest.class.getName());
 	
 	//SignUp

@@ -18,9 +18,7 @@ public String[][] getData(String path,String sheetName) {
 	String[][] data = null;
 		
 	try {
-		InputStream excelFileToRead;
-		
-			excelFileToRead = new FileInputStream(path);
+		InputStream excelFileToRead = new FileInputStream(path);
 		
 		XSSFWorkbook wb = new XSSFWorkbook(excelFileToRead);
 		 XSSFSheet sheet = wb.getSheet(sheetName);        
@@ -37,7 +35,7 @@ public String[][] getData(String path,String sheetName) {
         }
        	
 		 wb.close();
-       
+		 excelFileToRead.close();
         
 	} catch (IOException e) {
 		log.error("Error reading excel file",e);
